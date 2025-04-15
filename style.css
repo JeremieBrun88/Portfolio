@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Underdog&display=swap');
 
+/*MINIMUM CSS*/
+
 * {
     margin: 0;
-    padding: 0;
+    padding: 5px;
     box-sizing: border-box;
     background-attachment: fixed;
-
 }
+
+/* HEADER */
 
 header {
     position: fixed;
@@ -14,11 +17,15 @@ header {
 
 }
 
+/*CONTAINER*/
+
 .container {
     max-width: 880px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/*FLEX*/
 
 .flex {
     display: flex;
@@ -33,28 +40,26 @@ header {
     align-items: center;
 }
 
+/*TITRES*/
 
 h1 {
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
+    font-weight: 1000;
     font-style: normal;
-
 }
 
 h2 {
-    font-family: ;
-
+    font-family: "Underdog", system-ui;
+    font-weight: 600;
+    font-style: normal;
 }
 
 h3 {
-    font-family: ;
-}
-
-.font-Accueil {
-    font-family: "Rubik Mono One", monospace;
-    font-weight: 700;
-    font-style: initial;
+    font-family: "Underdog", system-ui;
+    font-weight: 600;
+    font-style: normal;
 }
 
 a {
@@ -93,17 +98,25 @@ a {
     width: 100%;
 }
 
-.bgred {
-    background-color: red;
-}
+/*COULEURS*/
 
 .black {
     color: black;
 }
 
+p {
+    color: rgb(238, 7, 7);
+}
+
 .white {
     color: white;
 }
+
+.bgred {
+    background-color: red;
+}
+
+/*POSITIONS*/
 
 .sticky {
     position: sticky;
@@ -113,6 +126,21 @@ a {
 .top {
     margin-top: 25px;
     margin-left: 30px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.font-Accueil {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 700;
+    font-style: initial;
+}
+
+.sectionServices {
+    position: relative;
+    top: -100px;
 }
 
 .bottom {
@@ -126,3 +154,5 @@ a {
 .blur {
     backdrop-filter: blur(5px);
 }
+
+
