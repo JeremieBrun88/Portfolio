@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Underdog&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-attachment: fixed;
+
+}
+
+header {
+    position: fixed;
+    width: 20px;
+
+}
+
+.container {
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+
+h1 {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+h2 {
+    font-family: ;
+
+}
+
+h3 {
+    font-family: ;
+}
+
+.font-Accueil {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 700;
+    font-style: initial;
+}
+
+a {
+    text-decoration: none;
+}
+
+.w15 {
+    width: 15%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w36 {
+    width: 36%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w45 {
+    width: 45%;
+}
+
+.w65 {
+    width: 65%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.bgred {
+    background-color: red;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.sticky {
+    position: sticky;
+    top: 100px;
+}
+
+.top {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.bottom {
+    margin-bottom: 20px;
+}
+
+.float {
+    float: right;
+}
+
+.blur {
+    backdrop-filter: blur(5px);
+}
