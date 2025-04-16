@@ -88,6 +88,10 @@ a {
     padding: 10px;
 }
 
+.padding30 {
+    padding: 30px;
+}
+
 .w15 {
     width: 15%;
 }
@@ -96,6 +100,25 @@ a {
     width: 25%;
 }
 
+.w40g {
+    width: calc(40% - 8px);
+}
+.w50g{
+    width: calc(50% - 8px);
+}
+.w60g{
+    width : calc(60% - 8px);
+}
+.gap16{
+    gap:16px;
+}
+
+.mb {
+    margin-bottom: 30px;
+}
+.mt16{
+    margin-top: 16px;
+}
 .w36 {
     width: 36%;
 }
@@ -106,6 +129,10 @@ a {
 
 .w45 {
     width: 45%;
+}
+
+.w60 {
+    width: 60%;
 }
 
 .w65 {
@@ -136,6 +163,7 @@ p {
     background-color: #633397;
     border-radius: 15px;
 }
+
 .white {
     color: white;
 }
@@ -145,20 +173,27 @@ p {
 
 }
 
+.background2 {
+    background-color: #b896db11;
+
+}
+
 .rigolo {
     color: aquamarine;
 }
 
 .headergroup {
-    background-color: #251C31;
+    background-color: #251c31;
     width: 100%;
-
 }
 
 .rem {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
 }
 
+.rem2 {
+    font-size: 1.5rem;
+}
 .bgred {
     background-color: red;
 }
@@ -187,7 +222,7 @@ p {
 
 .sticky {
     position: sticky;
-    background-color: #633397;
+    background-color: #681830a7;
     height: 261;
     top: 20px;
     left: 80px;
@@ -195,7 +230,6 @@ p {
     padding-right: 46px;
     padding-bottom: 28px;
     padding-left: 46px;
-    gap: 27px;
     border-radius: 30px;
 }
 
@@ -212,17 +246,19 @@ p {
 }
 
 
+
+
 /* HERO */
 .hero {
     height: 70vh;
 }
 
 .carte {
-    background-color: #F9F9F9;
-    border-radius: 10px;
+    background-color: #a1505020;
+    border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-    max-width: 320px;
+    max-width: 400px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -255,35 +291,15 @@ p {
     padding-left: 25px;
 }
 
-.image1 {
-    width: 344;
-    height: 462;
-    top: 888px;
-    left: 497px;
+.gallerie img{
+    width: 100%;
+    height : 250px;
+    object-fit: cover;
+    object-position: center;
 }
-
-.image2 {
-    width: 344;
-    height: 216;
-    top: 888px;
-    left: 879px;
+.image1{
+    height: 100% !important;
 }
-
-.image3 {
-    width: 344;
-    height: 216;
-    top: 888px;
-    left: 1262px;
-
-}
-
-.image4 {
-    width: 727;
-    height: 216;
-    top: 1134px;
-    left: 879px;
-}
-
 .top {
     margin-top: 25px;
     margin-left: 30px;
@@ -308,6 +324,7 @@ p {
 .bottom {
     margin-bottom: 20px;
 }
+
 .float {
     float: right;
 }
