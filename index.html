@@ -12,16 +12,20 @@
 
 <!--CORPS DE MA PAGE-->
 
-<body  class="background">
+<body class="background">
 
 
     <!--Section Accueil header-->
 
-    <header class="headergroup alignCenter container spacebetween">
-        <img src="assets/Frame 2.png" alt="LOGO">
-        <img src="assets/Group.png" alt="mail">
-        <img src="assets/Group (1).png" alt="Linkedin">
-        <img src="assets/Group (3).png" alt="Github">
+    <header class="headergroup flex alignCenter container spaceBetween">
+        <div>
+            <img src="assets/Frame 2.png" alt="LOGO">
+        </div>
+        <div>
+            <img src="assets/Group.png" alt="mail">
+            <img src="assets/Group (1).png" alt="Linkedin">
+            <img src="assets/Group (3).png" alt="Github">
+        </div>
 
     </header>
 
@@ -32,63 +36,67 @@
 
         <!--SECTION GAUCHE - Accueil - sticky-->
 
-        <section class=" w25 bgred">
+        <section class=" ">
 
-            <nav class="">
+            <nav class="sticky white">
                 <ul>
                     <li> <a href="Accueil">Accueil</a></li>
                     <li><a href="Mes projets">Mes projets</a></li>
                     <li><a href="C.V">C.V</a></li>
                     <li> <a href="Me contacter">Me contacter</a></li>
                 </ul>
-               
-                
-                
-               
+
+
+
+
             </nav>
 
         </section>
 
         <!--SECTION DROITE-->
 
-        <section class=" w70  bgblue">
+        <section class=" w70">
 
             <!--Section bienvenue-->
 
             <section class="flex spaceBetween alignCenter hero ">
                 <div class="w50">
-                    <h1>
-                        Bienvenue, moi c'est Jérémie. Baby dév. web en formation
+                    <h1 class="padding">
+                        Bienvenue,
                     </h1>
+                    <p class="padding rem">
+                        ici séjourne un baby dév. web en formation.
+                    </p>
                     <p>
-                        "La vie est une grande épopée qu'il ne faut pas gâcher" Moi-même, Jérémie Brun, premier du nom.
+                        "La vie est une grande épopée qu'il ne faut pas gâcher" <br> <br> Moi-même, Jérémie Brun,
+                        premier du nom.
                         Du haut de mes 36 ans d'expériences dans ce monde, je vous
                         invites à parcourir ce portfolio à la découverte de mes talents, ainsi que de mes passions.
                         Mes anciennes vies étant nombreuses, tout ne pourra être représenter.
                     </p>
-                    <a href="Bouton télécharger CV">Télécharger C.V class</a>
+                    <a href="assets/Frame 4.png" class="bouton CV bgbouton bouton">Télécharger mon merveilleux C.V</a>
                 </div>
                 <img src="assets/image 1.png" class="w25 float" alt="Avatar de moi-même">
-                
+
 
 
             </section>
 
             <!--Section A propos de moi-->
 
-            <section class="spacebetweenflex top ">
+            <section class="spaceBetween flex top ">
                 <div>
                     <h2 class="textCenter">
                         A propos de moi
                     </h2>
                 </div>
-                <div class="flex alignCenter content">
-                    <div>
+                <div class="flex spaceBetween container bgred">
+                    <div class="">
                         <img src="assets/1000001459.jpg" alt="" class="w15 image1">
                     </div>
                     <div class="">
                         <img src="assets/3d9a4677-9c2f-4214-8817-cc07eefd9b27-1_all_1393.jpg" alt="" class="w15 image2">
-                        <div class="flex">
+                        <div class="flex alignCenter">
                             <img src="assets/3d9a4677-9c2f-4214-8817-cc07eefd9b27-1_all_591.jpg" alt=""
                                 class="w15 image3">
                             <img src="assets/1000002494.jpg" alt="" class="w15 image4">
@@ -96,7 +104,13 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="textCenter">
+            </section>
+
+            <!-- Section Soft - Hard-->
+
+            <section class="">
+                <div>
+                    <h3 class="">
                         Mes Softs
                     </h3>
                     <div>
@@ -111,11 +125,9 @@
                             </li>
                         </ul>
                     </div>
-
-                    </p>
                 </div>
-                <div class="textCenter">
-                    <h3>
+                <div>
+                    <h3 class="">
                         Mes hards
                     </h3>
                     <div>
@@ -137,7 +149,7 @@
 
             <!--Section Mes réalisations-->
 
-            <section class="spacebetween flex  top">
+            <section class="spaceBetween flex  top">
                 <h2 class="textCenter">
                     Mes réalisations
                 </h2>
@@ -211,7 +223,7 @@
 
             <!--Section attirante-->
 
-            <section class="flex top  spacebetween">
+            <section class="flex top  spaceBetween">
 
                 <a href="assets/0429f6de8ce13b5eee52571409460626.jpg" class="rigolo content">⚠ NE PAS CLIQUER ⚠</a>
 
@@ -222,18 +234,18 @@
 
     </main>
 
-    <footer class="w100 footer container">
-        <div>
+    <footer class="w100 flex footer container">
+        <div class="flex spaceBetween alignCenter">
             <img src="assets/Frame 2.png" alt="" class="container alignCenter">
         </div>
-        <h4 class="white">
+        <h4 class="white flex alignCenter">
             portfolio 2024
         </h4>
-        <div>
-            <h2 class="textCenter">
+        <div class="flex spaceBetween alignCenter">
+            <h2 class="">
                 Contacts
             </h2>
-            <div class="container textCenter">
+            <div class="container">
                 <p>
                     JEREMIE.BRUN@latoile.em-lyon.com
                 </p>

@@ -7,13 +7,15 @@
     padding: 0;
     box-sizing: border-box;
     background-attachment: fixe;
+    list-style: none;
 }
 
 /* HEADER */
 
 header {
     position: relative;
-    
+    padding-bottom: 100px;
+
 }
 
 /*CONTAINER*/
@@ -32,18 +34,18 @@ header {
 
 }
 
-.static {
-
+.textAlign {
     text-align: center;
- }
+}
 
- .margin {
+.margin {
     margin: auto;
- }
+}
 
 .content {
     justify-content: flex-end;
 }
+
 .spaceBetween {
     justify-content: space-between;
 }
@@ -60,6 +62,7 @@ h1 {
     font-weight: 1000;
     font-style: normal;
     color: white;
+    font-size: 2.6rem;
 }
 
 h2 {
@@ -78,6 +81,11 @@ h3 {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+.padding {
+    padding: 10px;
 }
 
 .w15 {
@@ -120,9 +128,14 @@ a {
 
 p {
     color: white;
-    font-family: "Underdog", system-ui
+    font-family: "Underdog", system-ui;
+
 }
 
+.bgbouton {
+    background-color: #633397;
+    border-radius: 15px;
+}
 .white {
     color: white;
 }
@@ -142,6 +155,10 @@ p {
 
 }
 
+.rem {
+    font-size: 2.2rem;
+}
+
 .bgred {
     background-color: red;
 }
@@ -153,31 +170,45 @@ p {
 
 /*POSITIONS*/
 
+.CV {
+    width: 281;
+    height: 53;
+    top: 591px;
+    left: 493px;
+    padding-top: 12px;
+    padding-right: 29px;
+    padding-bottom: 12px;
+    padding-left: 29px;
+    gap: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
 .sticky {
     position: sticky;
-    position: fixed;
-    background-color: #6333973e;
+    background-color: #633397;
     height: 261;
-    top: 228px;
+    top: 20px;
     left: 80px;
     padding-top: 28px;
     padding-right: 46px;
     padding-bottom: 28px;
     padding-left: 46px;
     gap: 27px;
-border-radius: 30px;
+    border-radius: 30px;
 }
 
 .bouton {
     width: 281;
-height: 53;
-top: 591px;
-left: 493px;
-padding-top: 12px;
-padding-right: 29px;
-padding-bottom: 12px;
-padding-left: 29px;
-gap: 10px;
+    height: 53;
+    top: 591px;
+    left: 493px;
+    padding-top: 12px;
+    padding-right: 29px;
+    padding-bottom: 12px;
+    padding-left: 29px;
+    gap: 10px;
 }
 
 
@@ -193,27 +224,30 @@ gap: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     max-width: 320px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+}
 
-  .carte:hover {
+.carte:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.703);
-  }
-  .carteimg {
+}
+
+.carteimg {
     width: 100%;
     height: auto;
     display: block;
     padding: 5px;
-  }
-  .carte h3 {
+}
+
+.carte h3 {
     font-size: 1.4rem;
     margin: 15px;
-  }
-  .carte p {
+}
+
+.carte p {
     font-size: 1rem;
     padding: 0 15px 20px 15px;
     color: #666;
-  }
+}
 
 
 .paddingsticky {
@@ -223,23 +257,23 @@ gap: 10px;
 
 .image1 {
     width: 344;
-height: 462;
-top: 888px;
-left: 497px;
+    height: 462;
+    top: 888px;
+    left: 497px;
 }
 
 .image2 {
     width: 344;
-height: 216;
-top: 888px;
-left: 879px;
+    height: 216;
+    top: 888px;
+    left: 879px;
 }
 
 .image3 {
     width: 344;
-height: 216;
-top: 888px;
-left: 1262px;
+    height: 216;
+    top: 888px;
+    left: 1262px;
 
 }
 
@@ -274,7 +308,6 @@ left: 1262px;
 .bottom {
     margin-bottom: 20px;
 }
-
 .float {
     float: right;
 }
