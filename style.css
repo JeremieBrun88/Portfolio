@@ -13,11 +13,13 @@
 
 header {
     position: relative;
+    
 }
 
 /*CONTAINER*/
 
 .container {
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -27,7 +29,17 @@ header {
 .flex {
     display: flex;
     flex-wrap: wrap;
+
 }
+
+.static {
+
+    text-align: center;
+ }
+
+ .margin {
+    margin: auto;
+ }
 
 .content {
     justify-content: flex-end;
@@ -43,9 +55,8 @@ header {
 /*TITRES*/
 
 h1 {
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Underdog", system-ui;
     font-optical-sizing: auto;
-    font-weight: bold;
     font-weight: 1000;
     font-style: normal;
     color: white;
@@ -62,6 +73,7 @@ h3 {
     font-family: "Underdog", system-ui;
     font-weight: 600;
     font-style: normal;
+    color: white;
 }
 
 a {
@@ -108,6 +120,7 @@ a {
 
 p {
     color: white;
+    font-family: "Underdog", system-ui
 }
 
 .white {
@@ -115,8 +128,12 @@ p {
 }
 
 .background {
-    background-color: #251C31;
+    background-color: #251c31;
 
+}
+
+.rigolo {
+    color: aquamarine;
 }
 
 .headergroup {
@@ -129,11 +146,16 @@ p {
     background-color: red;
 }
 
+.bgblue {
+    background-color: blue;
+}
+
 
 /*POSITIONS*/
 
 .sticky {
     position: sticky;
+    position: fixed;
     background-color: #6333973e;
     height: 261;
     top: 228px;
@@ -143,7 +165,60 @@ p {
     padding-bottom: 28px;
     padding-left: 46px;
     gap: 27px;
-border-radius: 14px;
+border-radius: 30px;
+}
+
+.bouton {
+    width: 281;
+height: 53;
+top: 591px;
+left: 493px;
+padding-top: 12px;
+padding-right: 29px;
+padding-bottom: 12px;
+padding-left: 29px;
+gap: 10px;
+}
+
+
+/* HERO */
+.hero {
+    height: 70vh;
+}
+
+.carte {
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .carte:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.703);
+  }
+  .carteimg {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 5px;
+  }
+  .carte h3 {
+    font-size: 1.4rem;
+    margin: 15px;
+  }
+  .carte p {
+    font-size: 1rem;
+    padding: 0 15px 20px 15px;
+    color: #666;
+  }
+
+
+.paddingsticky {
+    padding-top: 25px;
+    padding-left: 25px;
 }
 
 .image1 {
@@ -151,6 +226,21 @@ border-radius: 14px;
 height: 462;
 top: 888px;
 left: 497px;
+}
+
+.image2 {
+    width: 344;
+height: 216;
+top: 888px;
+left: 879px;
+}
+
+.image3 {
+    width: 344;
+height: 216;
+top: 888px;
+left: 1262px;
+
 }
 
 .image4 {
@@ -163,6 +253,7 @@ left: 497px;
 .top {
     margin-top: 25px;
     margin-left: 30px;
+    transform: translate(100px);
 }
 
 .textCenter {
@@ -196,5 +287,4 @@ left: 497px;
 
 .footer {
     background-color: #633397;
-    width: 50;
 }
