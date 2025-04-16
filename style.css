@@ -4,23 +4,20 @@
 
 * {
     margin: 0;
-    padding: 5px;
+    padding: 0;
     box-sizing: border-box;
-    background-attachment: fixed;
+    background-attachment: fixe;
 }
 
 /* HEADER */
 
 header {
-    position: fixed;
-    width: 20px;
-
+    position: relative;
 }
 
 /*CONTAINER*/
 
 .container {
-    max-width: 880px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -32,6 +29,9 @@ header {
     flex-wrap: wrap;
 }
 
+.content {
+    justify-content: flex-end;
+}
 .spaceBetween {
     justify-content: space-between;
 }
@@ -48,12 +48,14 @@ h1 {
     font-weight: bold;
     font-weight: 1000;
     font-style: normal;
+    color: white;
 }
 
 h2 {
     font-family: "Underdog", system-ui;
     font-weight: 600;
     font-style: normal;
+    color: white;
 }
 
 h3 {
@@ -105,22 +107,57 @@ a {
 }
 
 p {
-    color: rgb(238, 7, 7);
+    color: white;
 }
 
 .white {
     color: white;
 }
 
+.background {
+    background-color: #251C31;
+
+}
+
+.headergroup {
+    background-color: #251C31;
+    width: 100%;
+
+}
+
 .bgred {
     background-color: red;
 }
+
 
 /*POSITIONS*/
 
 .sticky {
     position: sticky;
-    top: 100px;
+    background-color: #6333973e;
+    height: 261;
+    top: 228px;
+    left: 80px;
+    padding-top: 28px;
+    padding-right: 46px;
+    padding-bottom: 28px;
+    padding-left: 46px;
+    gap: 27px;
+border-radius: 14px;
+}
+
+.image1 {
+    width: 344;
+height: 462;
+top: 888px;
+left: 497px;
+}
+
+.image4 {
+    width: 727;
+    height: 216;
+    top: 1134px;
+    left: 879px;
 }
 
 .top {
@@ -140,7 +177,7 @@ p {
 
 .sectionServices {
     position: relative;
-    top: -100px;
+
 }
 
 .bottom {
@@ -155,4 +192,9 @@ p {
     backdrop-filter: blur(5px);
 }
 
+/*FOOTER*/
 
+.footer {
+    background-color: #633397;
+    width: 50;
+}
