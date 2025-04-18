@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-attachment: fixe;
+    background-attachment: fixed;
     list-style: none;
 }
 
@@ -169,13 +169,8 @@ p {
 }
 
 .background {
-    background-color: #251c31;
-
-}
-
-.background2 {
-    background-color: #b896db11;
-
+    background-image: url(assets/smoke-art-5807013_1920.jpg);
+    width: 100%;
 }
 
 .rigolo {
@@ -183,7 +178,7 @@ p {
 }
 
 .headergroup {
-    background-color: #251c31;
+    padding-top: 25px;
     width: 100%;
 }
 
@@ -192,7 +187,8 @@ p {
 }
 
 .rem2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-family: "Underdog", system-ui;
 }
 .bgred {
     background-color: red;
@@ -258,7 +254,7 @@ p {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+    max-width: 500px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -336,5 +332,5 @@ p {
 /*FOOTER*/
 
 .footer {
-    background-color: #633397;
+padding-bottom: 25px;
 }
